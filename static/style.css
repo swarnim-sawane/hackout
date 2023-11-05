@@ -1,0 +1,194 @@
+#section-one {
+    background-image: url(section-one-backgound.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    /* Add margin to create space between the icons */
+    /* Adjust margin-top to your preference */
+}
+
+.icon p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon:hover {
+    background-color: grey;
+    color: white;
+}
+
+#content {
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+    size: 80px;
+    font-weight: normal;
+}
+
+#section-2,
+#section-3,
+#section-4 {
+    background-image: url("lightgrey.png");
+    border-bottom: 1px solid black;
+    /* Preserve the border-bottom property */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#section-4 {
+    height: 700px !important;
+}
+
+#section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#section-2 .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-3 h1 {
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+#image {
+    height: 300px;
+    display: block;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+input {
+    margin-top: 200px;
+    margin-right: 10px;
+    background: linear-gradient(to bottom right, #09203f 0%, #537895 100%);
+}
+
+.form-control {
+    background: linear-gradient(to bottom right, #09203f 0%, #537895 100%);
+}
+
+input::placeholder {
+    color: black;
+}
+
+input::file-selector-button {
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 0.5em;
+    border: thin solid grey;
+    border-radius: 3px;
+    border: 2px solid #007BFF;
+    /* Border color */
+    background-color: #FFFFFF;
+    /* Background color */
+}
+
+.btn-upload {
+    background: linear-gradient(to bottom right, #09203f 0%, #537895 100%);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#btn-extract {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background: linear-gradient(to bottom right, #09203f 0%, #537895 100%);
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    color: white;
+    transition: box-shadow 0.3s;
+}
+
+.btn-extract:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-control.no-margin {
+    margin: 0;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control.no-margin:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    /* Add a box shadow on hover */
+}
+
+#language {
+    text-align: left !important;
+}
